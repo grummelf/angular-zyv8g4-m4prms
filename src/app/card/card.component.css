@@ -1,0 +1,27 @@
+#card {
+  width: 300px;
+  max-height: 800px;
+  border-radius: 0px 0px 30px 10px;
+  box-shadow: 5px 10px 8px;
+}
+
+#card .title {
+  font-size: xx-large;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  font-family: Helvetica;
+  border-radius: 30px 10px 0px 0px;
+}
+
+#card .description {
+  background-color: lightslategray;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  vertical-align: middle;
+  height: 300px;
+  border-radius: 0px 0px 30px 10px;
+  
+}
