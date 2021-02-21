@@ -9,6 +9,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 import { CardComponent } from './card/card.component';
 import { PlayerListComponent } from './player-list/player-list.component';
+import { SignalrService } from './signalr.service';
 
 @NgModule({
   imports: [
@@ -29,7 +30,8 @@ import { PlayerListComponent } from './player-list/player-list.component';
   ],
   bootstrap: [
     AppComponent
-  ]
+  ],
+  providers: [SignalrService]
 })
 export class AppModule { }
 
